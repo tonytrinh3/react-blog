@@ -7,6 +7,8 @@ export const fetchPosts = () => async dispatch => {
 
 };
 
+//getting users from a separate /users, 
+
 export const fetchUser = (id) => async dispatch => {
     const response = await jsonPlaceholder.get(`/users/${id}`);
 
